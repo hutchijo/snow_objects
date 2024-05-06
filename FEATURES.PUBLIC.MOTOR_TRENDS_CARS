@@ -1,0 +1,15 @@
+create or replace TABLE FEATURES.PUBLIC.MOTOR_TRENDS_CARS (
+	"model" VARCHAR(16777216),
+	"mpg" FLOAT,
+	"cyl" NUMBER(38,0),
+	"disp" FLOAT,
+	"hp" NUMBER(38,0),
+	"drat" FLOAT,
+	"wt" FLOAT,
+	"qsec" FLOAT,
+	"vs" NUMBER(38,0),
+	"am" NUMBER(38,0),
+	"gear" NUMBER(38,0),
+	"carb" NUMBER(38,0),
+	BATTERY VARCHAR(16777216)
+);
